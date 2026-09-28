@@ -15,14 +15,15 @@ while not intflag:
         savings = int(input("How much would you like to save?"))
         perYear = 12*savings
         print(f"you will save £{perYear} per year.")
+        intflag = True
         
     except:
         print(f"Please enter numbers only.")
-    intflag = True
+    
 
-interest = 0.8 * perYear
+interest = 0.008 * perYear
 plusInterest = interest + perYear
-print(f"Plus interest you will have £{plusInterest}.")
+print(f"Plus interest you will have £{plusInterest:.2f}.")
 
 
     
