@@ -3,22 +3,23 @@ Portfolio Task - Week 1
 By submitting this code you are declaring that all work in this file, other than any provided template code, was written and developed by you independently.
 Name: 
 """
-intflag = false
+intflag = False
 perYear = 0
 savings = 0
 interest = 0.0
 plusInterest = 0.0
 name = input("What is your name? ")
 print(f"Welcome to LeedsBank's savings calculator {name}!")
-while !intflag:
+while not intflag:
     try:
         savings = int(input("How much would you like to save?"))
         perYear = 12*savings
         print(f"you will save £{perYear} per year.")
-        intflag = true
+        
     except:
         print(f"Please enter numbers only.")
-else:
+    intflag = True
+
 interest = 0.8 * perYear
 plusInterest = interest + perYear
 print(f"Plus interest you will have £{plusInterest}.")
