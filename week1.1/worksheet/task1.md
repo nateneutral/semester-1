@@ -21,5 +21,5 @@ You can complete this task on the worksheet pdf if you prefer.
 |     git add -A              | adds all files in the codespace to be committed
 |     git commit -m ""        | bundles all changes into 1 commit to be pushed to the git server, -m allows for a message to add context to the commit
 |     git push                | sends committed changes to Github server.
-|     git pull                | |
+|     git pull                | combination of git fetch and git merge commands. git fetch gets the change history of a tracked branch/repo. git merge combines the current branch, with a specified branch from the remote github server.
 
