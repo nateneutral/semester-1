@@ -3,6 +3,16 @@
 # You are going to write a very simple program:
 
 # Ask a user to enter two numbers (one per input)
+try:
+    num1 = int(input("Enter the first number."))
+    num2 = int(input("Enter the first number."))
+    num3 = num1 * num2
+    print(f"The answer is {num3}")
+except:
+    print("That is not a number.")
+    
+
+
 
 # multiply those numbers together
 
