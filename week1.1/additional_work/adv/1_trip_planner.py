@@ -6,11 +6,25 @@
 """
 
 destination = input("Where are you going to? ")
+speed = 0
+try:
+    distance_miles_input = int(input("How many miles will you travel? "))
+    if distance_miles_input <=0:
+        raise Exception("Please enter a valid number")
+    time_hours_input = int(input("How many hours will the journey take? "))
+    if time_hours_input <=0:
+        raise Exception("Please enter a valid number")
+    
+    speed = distance_miles_input/time_hours_input
+    print(f"Average speed for your journey to {destination} is {speed:.2f}mph.")
+   
+except:
+    print("Please enter a valid number")
 
-distance_miles_input = input("How many miles will you travel? ")
-time_hours_input = input("How many hours will the journey take? ")
+
 
 # TODO: convert distance_miles_input and time_hours_input to numbers
 # TODO: calculate the average speed in miles per hour
+
 # TODO: print a summary message using an f-string
 # Extension: add validation for zero or negative values
