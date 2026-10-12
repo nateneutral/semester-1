@@ -8,5 +8,6 @@ while fruit:
 
 
 # Why does this work?
-
+# if fruit is null, then the value it returns is false.
 # What features of Python does it rely on?
+# the variables are dynamically typed, and all variables are objects (OOP)

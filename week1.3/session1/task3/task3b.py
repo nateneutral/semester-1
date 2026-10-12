@@ -4,6 +4,8 @@ fruit = ['apple','pear','banana','orange']
 
 while fruit:
 	print(fruit.pop())
+	if not fruit:
+		print("list empty")
 
 
 # Add an else clause with a message that the list is now empty
