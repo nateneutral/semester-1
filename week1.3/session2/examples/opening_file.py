@@ -7,3 +7,4 @@ with open("student_data.csv", "r") as f: # opening 'student_data.csv' in read mo
 
         # you can use the string method .strip() to remove leading and trailing characters (whitespace by default)
         # print(line.strip())  
+        

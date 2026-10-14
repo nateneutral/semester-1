@@ -4,9 +4,11 @@ with open("student_data.csv", "r") as f:
     data = f.readlines()
 
 print(data)
+print("break")
 # this is a good use for list comprehensions:
 data = [ line.strip().split(",") for line in data ]
-
+# turns data into a 2D array
+print(data)
 '''
 You can also use a for loop if you find list comprehensions hard to read:
 
