@@ -5,7 +5,15 @@
 # You could handle file errors with try/except.
 
 # Read the file content
+with open("../images/feep.pgm", "r") as f:
+    data = f.readlines()
+data = [line.strip().split(",") for line in data ]
+print(data)
 
+Dimensions = data[1][0].split(" ")
+
+MaxGray = data[2][0]
 # print image dimension (i.e., Dimensions: width x height pixels)
-
+print(f"Dimensions: {Dimensions[0]} x {Dimensions[1]}, max grey value: {MaxGray}")
 # print max gray value (i.e., Max Gray Value: max_gray_value)
+
