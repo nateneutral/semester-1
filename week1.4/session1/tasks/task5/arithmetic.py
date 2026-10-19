@@ -60,8 +60,10 @@ run_program()
 
 # In the function run_program, they are more than one tasks involved:
 #   (1) getting user input for numbers
+#   def InputNum()
 #   (2) ask user for desired operation
+#   def InputOp
 #   (3) match operation.
-
+#   def MatchOp
 #    If you are to split each task into a separate function, how would you
 #   name the function for each of these tasks?
