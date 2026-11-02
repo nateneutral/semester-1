@@ -15,3 +15,11 @@ class Quake:
     latitude: float
     depth: float
     magnitude: float
+
+    def __init__(self,when,longitude,latitude,depth,magnitude):
+        self.when = when
+        self.longitude = longitude
+        self.latitude = latitude
+        self.depth = depth
+        self.magnitude = magnitude
+
