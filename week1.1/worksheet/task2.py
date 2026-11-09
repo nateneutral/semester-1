@@ -18,7 +18,7 @@ while not intflag:
         intflag = True
         
     except:
-        print(f"Please enter numbers only.")
+        print(f"Invalid amount")
     
 
 interest = 0.008 * perYear

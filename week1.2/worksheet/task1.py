@@ -8,7 +8,7 @@ else:
     grade = int(grade)
     
 if grade < 0 or grade >100:
-   sys.exit(" Grade must be an integer between 0 and 100")
+   sys.exit("Grade must be an integer between 0 and 100")
 if grade > 39:
     if grade > 69:
         result = "Distinction"

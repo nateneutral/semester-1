@@ -14,15 +14,16 @@ def read_numbers():
     nonNum = 0
     numbers = []
     line = input("Enter some numbers, separated by spaces: ")
-
+    if nonNum == len(line.split()):
+        sys.exit("Error: no numbers provided")
+        
     for item in line.split():
         if not((item.replace(".","")).isnumeric()):
             nonNum = nonNum +1
         else:
             numbers.append(float(item))
            
-    if nonNum == len(line.split()):
-        sys.exit("Error: no numbers provided")
+   
     print(numbers)
     return numbers
 
