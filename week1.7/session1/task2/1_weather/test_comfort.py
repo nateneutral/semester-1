@@ -8,10 +8,18 @@
 from weather import comfort_level
 
 def test_cold():
-    assert comfort_level(    ) == "COLD"
-    assert comfort_level(    ) == "COLD"
+    assert comfort_level(15) == "COLD"
+    assert comfort_level(-3) == "COLD"
 
 def test_hot():
-    assert comfort_level(    ) == "HOT"
-    assert comfort_level(    ) == "HOT"
+    assert comfort_level(25.1) == "HOT"
+    assert comfort_level(27) == "HOT"
+
+def test_OK():
+    assert comfort_level(15.1) == "OK"
+    assert comfort_level(25) == "OK"
+    assert comfort_level(18) == "OK"
     
+test_OK()
+test_hot()
+test_cold()
