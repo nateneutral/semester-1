@@ -2,7 +2,7 @@
 
 `calculate_total.py` is a simple Python program to calculate a retail total by multiplying a base price by a tax rate and adding the result together.
 
-However, it containts a deliberate `Type` bug. We will use Pdb to investigate this bug.
+However, it contains a deliberate `Type` bug. We will use Pdb to investigate this bug.
 
 
 ## Instructions

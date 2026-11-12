@@ -1,0 +1,3 @@
+INFO:root:calculate_average(): started
+INFO:root:total_score and total_assignments assigned total_score = 263, total_assignments = 3
+INFO:root:average calculated, 87.66666666666667
