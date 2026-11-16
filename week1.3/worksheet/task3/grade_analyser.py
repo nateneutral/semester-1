@@ -71,7 +71,7 @@ print(newData)
 newFileName = fileName + "_out.csv"
 
 try:
-    with open(newFileName, "w") as f:
+    with open("random.txt", "w") as f:
         for l in newData:
             print(l)
             for v in l:
